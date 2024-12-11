@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIWES</title>
+    <link rel="stylesheet" href="index.css">
+     
+
+</head>
+<body>
+    <h1>Welcome To My Website</h1>
+    <h2>About Artificial Inteligence</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat recusandae, beatae totam veniam explicabo dolorum laudantium quasi est. Rem non ducimus vitae adipisci soluta velit voluptates molestias, similique a earum.</p>
+    <p><b>Make your choice</b></p><br>
+
+   <div>
+    <h2 style="font-size: 30px; text-align: left;">Departments in FCF</h2>
+    <div class="com">
+        <h3>Computer science department</h3>
+    <p>Computer science department was established in the year 2xxx. There are xxx full time lecturers in FCF</p>
+   </div>
+
+   <div class="agt">
+    <h3>Agricultural technology</h3>
+    <p>Agriculture department was established in the year 2xxx. there are xxx full time lecturers</p>
+   </div>
+
+   
+
+
+    </div>
+
+    <h3>Register Now</h3>
+    <form class="com">
+        <fieldset>
+            <legend>Fill the form below carefully</legend>
+        <label for="fn">FirstName:</label> <br>
+        <input type="text" id="fn" value="Samuel"> <br><br>
+        <label for="ln">LastName:</label><br>
+        <input type="text" id="ln" name="ln" value="Asepe"><br><br>
+   
+    <h3>Choose your favourite course</h3>
+
+    <input type="radio" id="cs" name="favourite" value="Computer Science">
+    <label for="cs">Computer sciene</label><br>
+
+    <input type="radio" id="as" name="favourite" value="Agric science">
+    <label for="as">Agric science</label><br>
+
+    <input type="radio" id="ht" name="favourite" value="Horticulture">
+    <label for="ht">Horticulture</label><br><br>
+
+    <h3>Select your course title</h3>
+
+    <input type="checkbox" id="maths" name="maths" value="maths">
+    <label for="maths">Mathematics</label><br>
+
+    <input type="checkbox" id="eng" name="eng" value="eng">
+    <label for="eng">English</label><br>
+
+    <input type="checkbox" id="civic" name="civic" value="civic">
+    <label for="civic">Civic</label><br>
+
+    <h3>Choose your prefered hostel</h3>
+    <label for="hostel">Choose one hostel ONLY</label>
+    <select name="hostel" id="hostel" multiple>
+        <option value="A">Hostel A</option>
+        <option value="B">Hostel B</option>
+        <option value="C">Hostel C</option>
+        <option value="D">Hollywood</option>
+    </select>
+    <br>
+
+    <textarea name="attest" id="" cols="30" rows="10">I attest that....</textarea>
+    <br>
+
+
+    <button>register</button>
+</fieldset>
+</form>
+
+
+
+
+    <p>Vegetables</p>
+    <ul style="list-style-type: square;">
+        <li>Lettuce</li>
+        <li>Onions
+            <ul>
+                <li>White onion</li>
+                <li>Local onion</li>
+            </ul>
+        </li>
+        <li>cabbage</li>
+    </ul>
+
+    <p>Fruits</p>
+    <ol type="a">
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+
+    <dl>
+        <dt> Vegetables</dt>
+        <dd>- Lettuce</dd>
+        <dd>- Onion</dd>
+        <dd>- cabbage</dd>
+
+        <dt>Fruit</dt>
+        <dd>- Orange</dd>
+        <dd>- Watermelon</dd>
+        <dd>- Pineapple</dd>
+    </dl>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>SN</th>
+            <th>NAME</th>
+            <th>DEPARTMENT</th>
+            <th>LEVEL</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ashiyanbi Aanuoluwa</td>
+            <td>Computer science</td>
+            <td>ND2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ajayi Daniel</td>
+            <td>AGT</td>
+            <td>ND2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ojo victor</td>
+            <td>Masscom</td>
+            <td>ND2</td>
+        </tr>
+
+    </table>
+
+
+    <button onclick="alertUs()">subscribe</button>
+
+    <script>
+        function alertUs() {
+            alert("welcome to my website")
+        }
+    </script>
+
+    <p id="text">My amazing website</p>
+    <p><i>Choices are here</i></p>
+    <!--<p>This is <sub>subscript</sub> and this is <sup>superscript</sup></p>-->
+    <p>H<sub>2</sub>O</p>
+    <p>Make your <mark>decision</mark> now</p>
+    <p>My choice is <del>red</del> blue</p>
+    <p>I have made my <u>decision</u></p>
+    <a href="https:fcfibadan.edu.ng">Visit our website to read more</a><br><br>
+    <a href="About.html" target="_blank">Contact us</a><br><br>
+    <img src="my-image.jpg" width="200" height="100" alt="This is a picture">
+</body>
+<footer>
+    <small>&copy;copyright reserved siwes</small>
+</footer>
+</html>
